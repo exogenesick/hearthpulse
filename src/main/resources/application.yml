@@ -1,0 +1,3 @@
+operations:
+  fetch:
+    source-url: https://7c4o2geimh.execute-api.us-west-2.amazonaws.com/dev/streams
