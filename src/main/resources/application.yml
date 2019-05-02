@@ -4,4 +4,4 @@ operations:
 
 pulse:
   fetch:
-    scheduler: "0 */30 * * * ?"
+    scheduler: "0 */10 * * * ?"
