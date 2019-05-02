@@ -20,7 +20,7 @@ public class Scheduler {
         return fetchOperation.execute();
     }
 
-    @Scheduled(fixedRate = 60000)
+    @Scheduled(cron = "${pulse.fetch.scheduler}")
     public void scheduled() {
         pulsesRepository.insert(fetchPlayers());
     }
